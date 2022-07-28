@@ -1,0 +1,13 @@
+<div>
+  <h1>hola aqui estan tus productos</h1>
+  {{#each products}}
+  <div class="productCard">
+    <p>{{this.title}}</p>
+    <p>{{this.price}}</p>
+    <img src="http://localhost:8080/img/{{this.image}}">
+
+
+  </div>
+  
+  {{/each}}
+</div>

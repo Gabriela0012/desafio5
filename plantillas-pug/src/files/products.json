@@ -1,0 +1,14 @@
+[
+	{
+		"title": "mini",
+		"price": "7500",
+		"image": "1658687285112-mini.jpg",
+		"id": 1
+	},
+	{
+		"title": "mini gris",
+		"price": "8000",
+		"image": "1658687309254-mini_gris.jpg",
+		"id": 2
+	}
+]

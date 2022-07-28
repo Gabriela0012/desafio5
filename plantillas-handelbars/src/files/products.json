@@ -1,0 +1,62 @@
+[
+	{
+		"title": "mini",
+		"price": "7500",
+		"image": "1658687285112-mini.jpg",
+		"id": 1
+	},
+	{
+		"title": "mini gris",
+		"price": "8000",
+		"image": "1658687309254-mini_gris.jpg",
+		"id": 2
+	},
+	{
+		"title": "short negro",
+		"price": "10000",
+		"image": "1658962365311-short_negro.jpg",
+		"id": 3
+	},
+	{
+		"title": "short gris",
+		"price": "4500",
+		"image": "1658962622260-short_gris.jpg",
+		"id": 4
+	},
+	{
+		"title": "short blanco",
+		"price": "12000",
+		"image": "1658962791853-short_blanco.jpg",
+		"id": 5
+	},
+	{
+		"title": "mini negra",
+		"price": "13000",
+		"image": "1658963000947-mini_negra.jpg",
+		"id": 6
+	},
+	{
+		"title": "mini gris",
+		"price": "4500",
+		"image": "1658963526737-mini_gris.jpg",
+		"id": 7
+	},
+	{
+		"title": "short blanco",
+		"price": "12800",
+		"image": "1658963722568-carrito.png",
+		"id": 8
+	},
+	{
+		"title": "short",
+		"price": "5600",
+		"image": "1658963927039-short.jpg",
+		"id": 9
+	},
+	{
+		"title": "short blanco",
+		"price": "7000",
+		"image": "1658963995409-short_blanco.jpg",
+		"id": 10
+	}
+]

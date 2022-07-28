@@ -1,0 +1,16 @@
+html 
+  head 
+    title="Nuevos productos"
+  body 
+    div 
+      from(id="productForm" method="POST") 
+        label(for="title") Titulo: 
+        input(type="text" name="title")
+        label(for="price") Price:
+        input(type="text" name="price")
+        input(type="file", placeholder="imagen")
+        button(type="submit") Enviar
+
+    script(src="js/newProduct.js")
+    
+

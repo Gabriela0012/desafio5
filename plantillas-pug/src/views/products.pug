@@ -1,0 +1,15 @@
+html 
+  head 
+    title="productos"
+  body 
+    div 
+      ul 
+        each product in products
+          li 
+            p=product.title 
+            p=product.price
+            img(src="http://localhost:8080/img/"+product.image)
+       
+
+
+

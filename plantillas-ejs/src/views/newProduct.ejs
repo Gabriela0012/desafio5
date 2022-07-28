@@ -1,0 +1,28 @@
+<div>
+  <form id="productForm">
+    <label for="title">Titulo</label>
+    <input id="title" name="title">
+    <label for="price">Precio</label>
+    <input id="price" name="price">
+    <label for="image">Imagen</label>
+    <input type="file" id="image" name="image">
+    <button type="submit">Enviar</button>
+    
+  </form>
+</div>
+
+<script>
+  const productForm = document.getElementById('productForm');
+  console.log(productForm);
+
+  productForm.addEventListener('submit',event =>{
+    event.preventDefault();
+    const formData = new FormData(productForm);
+    console.log(formData);
+    fetch('/api/products',{
+      method: 'POST',
+      body: formData
+    }).then(result =>result.json()).then(json => console.log(json));
+
+  })
+</script>

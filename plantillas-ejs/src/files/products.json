@@ -1,0 +1,32 @@
+[
+	{
+		"title": "mini",
+		"price": "7500",
+		"image": "1658687285112-mini.jpg",
+		"id": 1
+	},
+	{
+		"title": "mini gris",
+		"price": "8000",
+		"image": "1658687309254-mini_gris.jpg",
+		"id": 2
+	},
+	{
+		"title": "fgjfj",
+		"price": "3000",
+		"image": "1658702174631-jeans_mon.jpg",
+		"id": 3
+	},
+	{
+		"title": "short",
+		"price": "59822",
+		"image": "1658703459979-short.jpg",
+		"id": 4
+	},
+	{
+		"title": "short gris",
+		"price": "45820",
+		"image": "1658706384420-short_gris.jpg",
+		"id": 5
+	}
+]
