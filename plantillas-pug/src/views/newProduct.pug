@@ -1,16 +1,32 @@
-html 
-  head 
-    title="Nuevos productos"
-  body 
-    div 
-      from(id="productForm" method="POST") 
-        label(for="title") Titulo: 
-        input(type="text" name="title")
-        label(for="price") Price:
-        input(type="text" name="price")
-        input(type="file", placeholder="imagen")
-        button(type="submit") Enviar
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title
+    body 
+      form(action='/products' method='POST')
+        label Producto
+        input(type='text' name='title' required='')
+        label Precio
+        input(type='number' name='price' required='')
+        label Imagen URl
+        input(type="text" name="image" id="image" placeholder="imagen")
+        button(type='submit') Agregar
 
-    script(src="js/newProduct.js")
+      div 
+        a(href="/products") 
+          button(type='button') TODOS LOS PRODUCTOS
+          br
+        a(href="/") 
+          button(type='button') INICIO
+
+       
     
+
+
+
+
+
+
 

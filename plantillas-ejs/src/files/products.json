@@ -28,5 +28,47 @@
 		"price": "45820",
 		"image": "1658706384420-short_gris.jpg",
 		"id": 5
+	},
+	{
+		"title": "mini gris",
+		"price": "4500",
+		"image": "1659170127894-mini_gris.jpg",
+		"id": 6
+	},
+	{
+		"title": "short blanco",
+		"price": "4500",
+		"image": "1659170678384-short_blanco.jpg",
+		"id": 7
+	},
+	{
+		"title": "short",
+		"price": "7800",
+		"image": "1659170753958-short.jpg",
+		"id": 8
+	},
+	{
+		"title": "mini",
+		"price": "8500",
+		"image": "1659171127157-mini_negra.jpg",
+		"id": 9
+	},
+	{
+		"title": "mini",
+		"price": "8500",
+		"image": "1659171179127-mini_negra.jpg",
+		"id": 10
+	},
+	{
+		"title": "mini gris",
+		"price": "8600",
+		"image": "1659171231603-mini_gris.jpg",
+		"id": 11
+	},
+	{
+		"title": "mini",
+		"price": "3000",
+		"image": "1659171382352-jeans_bota.jpg",
+		"id": 12
 	}
 ]

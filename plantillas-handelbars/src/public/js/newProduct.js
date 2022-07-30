@@ -11,3 +11,4 @@ productForm.addEventListener('submit',event =>{
   }).then(result =>result.json()).then(json => console.log(json));
 
 })
+

@@ -49,7 +49,7 @@ router.post('/',uploader.single('image'),async(req, res)=>{
   }
   console.log(product)
   await productService.saveProduct(product);
-  res.send({status:'success',message:'Product saved successfully'});
+  res.redirect('/products');
 })
 
 router.put('/:id',validateID, async (req,res)=>{

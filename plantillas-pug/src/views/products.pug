@@ -2,14 +2,30 @@ html
   head 
     title="productos"
   body 
-    div 
+    h1="Productos"
+    a(href='/')
+      button(type='button' class='btn btn-primary') INICIO
+
+
+    div(class="d-flex flex-row")
       ul 
-        each product in products
-          li 
-            p=product.title 
-            p=product.price
-            img(src="http://localhost:8080/img/"+product.image)
-       
+        table.table
+          thead
+            tr
+              th.ps-4(scope='col') Id
+              th.ps-4(scope='col') Producto
+              th.text-center(scope='col') Precio
+              th.text-center(scope='col') Imagen
+          tbody
+            each product in products
+              tr
+                th.ps-4.align-middle(scope='row')= product.id 
+                th.ps-4.align-middle(scope='row')= product.title
+                td.text-center.align-middle= product.price
+                td
+                  .image-container.text-center
+                    img.img(src=product.image height="150rem" alt='Product image')
+        
 
 
 

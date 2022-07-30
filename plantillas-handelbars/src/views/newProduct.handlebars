@@ -1,14 +1,33 @@
-<div>
-  <form id="productForm">
-    <label for="title">Titulo</label>
-    <input id="title" name="title">
-    <label for="price">Precio</label>
-    <input id="price" name="price">
-    <label for="image">Imagen</label>
-    <input type="file" id="image" name="image">
-    <button type="submit">Enviar</button>
-    
-  </form>
+
+<div class="d-flex flex-column justify-content-center align-items-center m-3">
+  <h1>Agregar Productos</h1>
+  <div class="col-6 d-flex justify-content-center mb-2">
+    <form id="productForm">
+      <label for="title" class="form-label" >Producto</label>
+      <input id="title" class="form-control" name="title">
+      <label for="price"class="form-label">Precio</label>
+      <input id="price" class="form-control" name="price">
+      <label for="image"class="form-label">Imagen</label>
+      <input type="file" id="image" class="form-control" name="image" placeholder="Agregar una imagen">
+      <button type="submit"class="btn btn-primary">Agregar</button>
+      
+    </form>
+  </div>
+  <a href='/'>
+    <button type='button'class="btn btn-info">INICIO</button>
+  </a>
+  <a href='/products'>
+    <button type='button'class="btn btn-secondary">TODOS LOS PRODUCTOS</button>
+  </a>
+
+
 </div>
+
+
+
+
+
+
+
 
 <script src="js/newProduct.js"></script>

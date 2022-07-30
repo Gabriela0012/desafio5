@@ -18,7 +18,7 @@ const server = app.listen(PORT,()=>{
 
 app.get('/',(req, res)=>{
   res.render('welcome.pug',{
-    message: 'Welcome to the new test'
+    message: 'Bienvenidos'
   })
 })
 

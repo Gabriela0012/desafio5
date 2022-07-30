@@ -1,13 +1,41 @@
+<a href="/newProduct">
+  <button type="button" >AGREGAR PRODUCTOS</button>
+</a>
+<a href="/">
+  <button type="button" >INICIO</button>
+</a>
+<br>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col" class="ps-4">Id</th>
+      <th scope="col" class="ps-4">PRODUCTO</th>
+      <th scope="col" class="text-center">PRECIO</th>
+      <th scope="col" class="text-center">IMAGEN</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% products.forEach(product => { %>
+      <tr>
+        <th scope="row" class="ps-4 align-middle"><%=product.id%></th>
+        <th scope="row" class="ps-4 align-middle"><%=product.title%></th>
+        <td class="text-center align-middle"><%=product.price%></td>
+        <td>
+          <div class="image-container text-center">
+            <img height="70rem" src="<%= "http://localhost:8080/img/"+ product.image %>" alt="Producto imagen" />
+          </div>
+        </td>
+      </tr>
+      <% }) %>
+  </tbody>
+</table>
 
-<% products.forEach(product => { %>
-  <p><%=product.title %> </p>
-  <p><%=product.price %> </p>
  
-  <img src="<%= product.image %>" alt="Producto imagen" />
+  
   
 
  
-<% }) %>
+
 
 
 
